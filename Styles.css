@@ -1,0 +1,43 @@
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px 5px;
+    
+    
+}
+.gallery>div>img {
+    width: 100%;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 6px 10px;
+    color: whitesmoke;
+    padding: 2%;
+
+    
+    
+
+}
+.grid-item {
+   text-align: center; 
+   background-color: rgb(26, 26, 117);
+}
+.flexbox {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: left;
+    align-items: stretch;
+
+
+    
+}
+.flexbox img {
+ width: 70%;
+ height: auto;
+}
